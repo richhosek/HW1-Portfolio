@@ -1,0 +1,57 @@
+header {
+    background-color: burlywood;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+header>div {
+    width: 960px;
+    margin: 0 auto;
+    border: solid red 1px;
+}
+
+#title {
+    float: left;
+    padding-left: 20px;
+}
+#nav {
+    float: right;
+    padding-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    background-color: yellowgreen;
+    width: 75%;
+    float: left;
+}
+
+aside {
+    background-color: green;
+    width: 25%;
+    float: left;
+}
+
+footer {
+    background-color: lightskyblue;
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: cornsilk;
+}
